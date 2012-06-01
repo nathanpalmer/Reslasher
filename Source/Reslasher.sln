@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reslasher", "Reslasher\Reslasher.csproj", "{89976774-267F-45FF-9FF2-DAA391302C19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reslasher.Tests", "Reslasher.Tests\Reslasher.Tests.csproj", "{AECE8D60-C132-41B3-8A99-0F18976BF90B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89976774-267F-45FF-9FF2-DAA391302C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89976774-267F-45FF-9FF2-DAA391302C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89976774-267F-45FF-9FF2-DAA391302C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89976774-267F-45FF-9FF2-DAA391302C19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AECE8D60-C132-41B3-8A99-0F18976BF90B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AECE8D60-C132-41B3-8A99-0F18976BF90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AECE8D60-C132-41B3-8A99-0F18976BF90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AECE8D60-C132-41B3-8A99-0F18976BF90B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
