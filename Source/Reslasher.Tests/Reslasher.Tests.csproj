@@ -31,11 +31,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="nunit.framework">
-      <HintPath>..\..\Libraries\NUnit\nunit.framework.dll</HintPath>
+    <Reference Include="nunit.framework, Version=2.6.0.12051, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libraries\NUnit.2.6.0.12054\lib\nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="Shouldly">
-      <HintPath>..\..\Libraries\Shouldly\Shouldly.dll</HintPath>
+    <Reference Include="Shouldly, Version=1.1.1.1, Culture=neutral, PublicKeyToken=6042cbcb05cbc941, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libraries\Shouldly.1.1.1.1\lib\35\Shouldly.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -54,6 +56,9 @@
       <Project>{89976774-267F-45FF-9FF2-DAA391302C19}</Project>
       <Name>Reslasher</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
